@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    padding: 20%;
+}
+.chat-container{
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20%;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+#message-container{
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+input[type="text"]{
+    padding: 10PX 20PX;
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    border-radius: 5PX;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #0056b3;
+}
